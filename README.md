@@ -23,12 +23,12 @@ I worked on the original AllShip for over two years — three repos, Express + M
 </picture>
 </a>
 
-| | |
-|---|---|
-| **Role** | Solo — product, architecture, design system, frontend, backend, payments, security, data migration |
-| **Size** | ~69k lines of TypeScript · 98 pages · 46 Postgres tables · dashboards for 4 roles + admin |
-| **Stack** | Next.js 16 · React 19 · Drizzle · Supabase (Postgres, Realtime, Storage) · Better Auth · Stripe Connect · OpenAI |
-| **Quality** | Strict TypeScript · 290 unit tests · DB-backed authorization tests · CI on every push |
+<table>
+<tr><td><b>Role</b></td><td>Solo — product, architecture, design system, frontend, backend, payments, security, data migration</td></tr>
+<tr><td><b>Size</b></td><td>~69k lines of TypeScript · 98 pages · 46 Postgres tables · dashboards for 4 roles + admin</td></tr>
+<tr><td><b>Stack</b></td><td>Next.js 16 · React 19 · Drizzle · Supabase (Postgres, Realtime, Storage) · Better Auth · Stripe Connect · OpenAI</td></tr>
+<tr><td><b>Quality</b></td><td>Strict TypeScript · 290 unit tests · DB-backed authorization tests · CI on every push</td></tr>
+</table>
 
 <table>
 <tr>
@@ -78,13 +78,13 @@ I worked on the original AllShip for over two years — three repos, Express + M
 
 ### Other work
 
-**[Floatline](https://github.com/yaroslav-tsarenko/floatline)** — CS2 skins marketplace on top of an aggregator of 28+ trading platforms. The wallet is an append-only ledger with idempotency keys on every entry, so redelivered payment webhooks and concurrent purchases can't double-credit. Orders reconcile from both webhooks and a polling job without double-applying. Background work runs as cron routes inside Next — no extra services.
+**[Floatline](https://github.com/yaroslav-tsarenko/floatline)** — CS2 skins marketplace on top of an aggregator of 28+ trading platforms. The wallet is an append-only ledger with idempotency keys on every entry, so redelivered payment webhooks and concurrent purchases can't double-credit. Orders reconcile from both webhooks and a polling job without double-applying. Background work runs as cron routes inside Next — no extra services.<br>
 <sub>Next.js 16 · Drizzle · Neon Postgres · pg_trgm search · multi-currency display over USD storage</sub>
 
-**[Keyarcade](https://github.com/yaroslav-tsarenko/keyarcade)** — digital game-key store on the Kinguin API: live catalog with a local fallback when the API is down, accounts, checkout that issues keys, PDF invoices by email. Visual language of a physical game shop — boxed titles, rotated price stickers, hard offset shadows.
+**[Keyarcade](https://github.com/yaroslav-tsarenko/keyarcade)** — digital game-key store on the Kinguin API: live catalog with a local fallback when the API is down, accounts, checkout that issues keys, PDF invoices by email. Visual language of a physical game shop — boxed titles, rotated price stickers, hard offset shadows.<br>
 <sub>Next.js 16 · Neon · pdfkit · nodemailer · OAuth2 fallback auth</sub>
 
-**[Datumskins](https://github.com/yaroslav-tsarenko/datumskins)** — CS2 skins store designed as an engineering drawing: every listing is a spec sheet with a wear gauge, grade and trade status. Steam trade-offer delivery, i18n, a power-user parts-list view.
+**[Datumskins](https://github.com/yaroslav-tsarenko/datumskins)** — CS2 skins store designed as an engineering drawing: every listing is a spec sheet with a wear gauge, grade and trade status. Steam trade-offer delivery, i18n, a power-user parts-list view.<br>
 <sub>Next.js 16 · Prisma 7 · Postgres · next-intl</sub>
 
 | Project | What it is | Stack |
@@ -102,10 +102,10 @@ Plus a steady stream of client work I can't open-source: payment integrations, p
 
 ### Toolbox
 
-| | |
-|---|---|
-| **Frontend** | React, Next.js (App Router, RSC, Server Actions), TypeScript, Tailwind, Radix, GSAP, WebGL |
-| **Backend** | Node.js, Express, Next route handlers, PostgreSQL, Drizzle, Prisma, Supabase, MongoDB |
-| **Payments** | Stripe, Stripe Connect, PayPal, high-risk PSPs, webhooks, ledgers, refunds and disputes |
-| **AI** | OpenAI (Responses API, tool calling, streaming), AI features scoped to user data, agentic dev tools |
-| **Ops** | Vercel, GitHub Actions, Sentry, Resend, Vitest, Playwright |
+<table>
+<tr><td><b>Frontend</b></td><td>React, Next.js (App Router, RSC, Server Actions), TypeScript, Tailwind, Radix, GSAP, WebGL</td></tr>
+<tr><td><b>Backend</b></td><td>Node.js, Express, Next route handlers, PostgreSQL, Drizzle, Prisma, Supabase, MongoDB</td></tr>
+<tr><td><b>Payments</b></td><td>Stripe, Stripe Connect, PayPal, high-risk PSPs, webhooks, ledgers, refunds and disputes</td></tr>
+<tr><td><b>AI</b></td><td>OpenAI (Responses API, tool calling, streaming), AI features scoped to user data, agentic dev tools</td></tr>
+<tr><td><b>Ops</b></td><td>Vercel, GitHub Actions, Sentry, Resend, Vitest, Playwright</td></tr>
+</table>
