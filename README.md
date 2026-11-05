@@ -1,6 +1,6 @@
 ## Yaroslav Tsarenko
 
-Full-stack engineer from Kyiv. I take products from the database to the screen in **Next.js, React, TypeScript, Node.js and PostgreSQL**: SaaS MVPs, marketplaces with several roles, admin panels, background jobs and AI features that work on real data.
+Full-stack engineer. I take products from the database to the screen in **Next.js, React, TypeScript, Node.js and PostgreSQL**: SaaS MVPs, marketplaces with several roles, admin panels, background jobs and AI features that work on real data.
 
 Commercial work since 2021, BSc in Computer Science (2026). I also fix and finish apps that started in Lovable, Bolt, Cursor or v0: security, data, sign-in, speed, tests.
 
