@@ -91,7 +91,7 @@ The product lived in three repos, the database was mostly bots and generated bid
 - **Learning that sticks.** FSRS spaced repetition, a mistakes queue and an adaptive CEFR placement test.
 - **Run like a product.** Own analytics, an admin for users and the game economy, a blog with static generation.
 
-[playloo.app](https://playloo.app)
+[playloo.app](https://playloo.app) · [Repository](https://github.com/yaroslav-tsarenko/loo#readme)
 
 <br>
 
